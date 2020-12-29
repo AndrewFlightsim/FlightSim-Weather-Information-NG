@@ -1,16 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World test", "Hello World test\Hello World test.csproj", "{FE485B80-1703-4720-BA2E-90FE35646FBD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FSStandardLibrary", "FSStandardLibrary", "{007D6B2D-8FFB-4C34-B533-58AFC6B04A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSStandardLibrary.Core", "FSStandardLibrary.Core\FSStandardLibrary.Core.csproj", "{EE6EC17B-2CF5-4A26-B1BF-0B83FA75986F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE6EC17B-2CF5-4A26-B1BF-0B83FA75986F} = {007D6B2D-8FFB-4C34-B533-58AFC6B04A88}
+	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FE485B80-1703-4720-BA2E-90FE35646FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE485B80-1703-4720-BA2E-90FE35646FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE485B80-1703-4720-BA2E-90FE35646FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE485B80-1703-4720-BA2E-90FE35646FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6EC17B-2CF5-4A26-B1BF-0B83FA75986F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6EC17B-2CF5-4A26-B1BF-0B83FA75986F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6EC17B-2CF5-4A26-B1BF-0B83FA75986F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6EC17B-2CF5-4A26-B1BF-0B83FA75986F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
