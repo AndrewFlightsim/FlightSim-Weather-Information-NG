@@ -5,8 +5,11 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2020.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\FSStandardLibrary.Core\FSStandardLibrary.Core.csproj" />
-      <ProjectReference Include="..\FSWeatherInformation.Core\FSWeatherInformation.Core.csproj" />
     </ItemGroup>
 
 </Project>
